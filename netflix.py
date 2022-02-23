@@ -1,6 +1,8 @@
-from time import sleep
 from turtle import *
+hideturtle()
 bgcolor('black')
+color('white')
+speed(2)
 right(90)
 pos = [(-40,0), (40,0)]
 for x,y in pos:
